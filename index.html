@@ -5,20 +5,20 @@
 <meta name="theme-color" content="#c94f12"><meta name="description" content="Practice the questions from Dr. Atandoh's STA 440 multiple regression test with feedback, worked solutions, and an orange-themed interactive review.">
 <title>STA 440 • Interactive Test Review</title>
 <style>
-:root{--paper:#fffaf4;--white:#fff;--ink:#29221c;--muted:#726459;--orange:#c34c0d;--burnt:#963707;--peach:#ffeddc;--line:#eaded1;--green:#276247;--red:#a43327;--shadow:0 10px 35px #56391a09}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,textarea,select{font:inherit}button,a,input,textarea,summary{ -webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{cursor:default}a{color:var(--burnt)}button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #ee8a36;outline-offset:4px}button{border:0}.skip{position:absolute;left:12px;top:-100px;z-index:5;padding:8px 16px;background:white}.skip:focus{top:10px}.topbar{background:var(--white);border-bottom:1px solid var(--line)}.top-inner{max-width:1320px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:22px 38px;gap:20px}.brand{display:flex;align-items:center;gap:13px}.mark{background:var(--orange);color:white;height:45px;width:45px;border-radius:13px;display:grid;place-items:center;font-size:24px;font-weight:700}.brand b{display:block;font-size:13px;letter-spacing:1.7px}.brand small{display:block;color:var(--muted);font-size:12px}.badge{font-size:12px;color:var(--burnt);background:var(--peach);padding:6px 12px;border-radius:50px;font-weight:700;white-space:nowrap}.wrap{max-width:1320px;margin:auto;padding:38px}.hero{display:grid;grid-template-columns:1fr 320px;gap:42px;align-items:center;margin-bottom:32px}.eyebrow{color:var(--orange);font-weight:750;font-size:12px;letter-spacing:2px;text-transform:uppercase}.hero h1{font:600 clamp(34px,4vw,52px)/1.1 Georgia,serif;margin:12px 0 17px;letter-spacing:-1px;max-width:700px}.hero h1 span{color:var(--orange)}.hero p{color:var(--muted);max-width:620px;margin:0}.hero .pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.pill{padding:5px 11px;background:white;border:1px solid var(--line);border-radius:50px;font-size:12px}.progress-card{background:white;padding:24px;border:1px solid var(--line);border-top:4px solid var(--orange);border-radius:16px;box-shadow:var(--shadow)}.progress-card .title{display:flex;justify-content:space-between;font-size:13px}.progress-card strong{font-size:32px;line-height:1.3;display:block;margin:10px 0}.progress-card strong span{font-size:14px;color:var(--muted);font-weight:400}.progress-track{height:7px;background:#f1e7dc;border-radius:10px;overflow:hidden;margin:12px 0}.progress-fill{height:100%;background:var(--orange);transition:width .3s}.progress-card p{font-size:12px}.layout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:30px;align-items:start}.sidebar{position:sticky;top:22px}.sidebar .label{font-size:11px;letter-spacing:1.6px;color:var(--muted);font-weight:750;margin:0 0 10px}.nav{display:flex;flex-direction:column;gap:5px}.nav button{display:flex;align-items:center;gap:10px;text-align:left;padding:13px 12px;border-radius:10px;color:var(--muted);background:none;line-height:1.3;font-size:13px;border:1px solid transparent}.nav button:hover{background:#f6eee4}.nav button.active{background:var(--peach);border-color:#f4c39b;color:var(--burnt);font-weight:700}.nav-num{height:27px;width:27px;flex-shrink:0;display:grid;place-items:center;background:white;border:1px solid var(--line);border-radius:7px;font-size:11px;font-weight:700}.nav-copy{flex:1}.nav-copy small{display:block;font-size:10px;margin-top:5px;opacity:.8;font-weight:400}.help-card{border-top:1px solid var(--line);padding-top:20px;margin-top:24px;color:var(--muted);font-size:12px}.help-card h3{font-size:13px;color:var(--ink);margin:0 0 8px}.help-card p{margin:5px 0}.toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;background:white;border:1px solid var(--line);border-radius:12px;padding:13px 16px;margin-bottom:24px;flex-wrap:wrap}.name-box{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}.name-box input{border:0;border-bottom:1px solid var(--line);padding:5px 4px;background:none;max-width:180px;color:var(--ink)}.actions{display:flex;gap:8px;flex-wrap:wrap}.btn{border:1px solid var(--line);background:white;border-radius:8px;padding:8px 13px;font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:5px;justify-content:center;color:var(--ink)}.btn:hover{background:#faf3eb}.btn.primary{background:var(--orange);border-color:var(--orange);color:white}.btn.primary:hover{background:var(--burnt)}.btn.quiet{background:none;color:var(--muted);border-color:transparent}.view-controls{display:flex;gap:8px;align-items:center;margin-bottom:25px;flex-wrap:wrap}.view-controls .btn.active{border-color:var(--orange);background:var(--peach);color:var(--burnt)}.view-controls span{font-size:12px;color:var(--muted);margin-left:auto}.section-head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:18px}.section-head h2{font:600 28px/1.2 Georgia,serif;margin:8px 0}.section-head p{color:var(--muted);font-size:13px;margin:0}.section-index{background:var(--orange);color:white;min-width:40px;height:40px;display:grid;place-items:center;border-radius:11px;font:600 23px Georgia,serif}.context{border:1px solid var(--line);border-radius:13px;background:#f7f0e7;padding:24px;margin-bottom:24px;font-size:14px}.context p:first-child{margin-top:0}.context p:last-child{margin-bottom:0}.tablewrap{overflow-x:auto;margin:18px 0}table{border-collapse:collapse;width:100%;min-width:400px;text-align:right;background:white;border:1px solid var(--line);font-size:13px;font-variant-numeric:tabular-nums}caption{text-align:left;padding:0 0 8px;color:var(--muted);font-size:12px}th,td{padding:11px 13px;border-bottom:1px solid var(--line)}th:first-child{text-align:left}thead{background:#fdf8f2}.equation{background:white;border-left:3px solid var(--orange);padding:14px 18px;font-family:Georgia,serif;font-size:17px;line-height:1.9;overflow-wrap:anywhere}.variables{display:grid;grid-template-columns:1fr 1fr;gap:9px;font-size:12px}.variables b{color:var(--burnt);margin-right:5px}.output{font:12px/1.9 ui-monospace,SFMono-Regular,monospace;background:white;padding:15px;border:1px solid var(--line);border-radius:6px;overflow-wrap:anywhere}.source-note{border-top:1px solid #e4d3c0;margin-top:18px;padding-top:12px;font-size:12px;color:#66513d}.source-note summary{cursor:pointer;font-weight:700}.context-note{font-size:12px;color:var(--muted)}.r-link{font-size:13px;font-weight:700}.model-list p{background:white;border:1px solid var(--line);border-radius:6px;padding:13px;line-height:1.8}.model-list b{display:block;color:var(--orange);font-size:11px;text-transform:uppercase;letter-spacing:1px}.model-list span{display:block;font-weight:700;margin-top:4px}.card{border:1px solid var(--line);background:white;border-radius:13px;padding:24px;margin:0 0 16px;box-shadow:var(--shadow)}.card-top{display:flex;justify-content:space-between;gap:10px;font-size:11px;margin-bottom:12px;align-items:center}.q-label{font-weight:750;color:var(--orange);letter-spacing:1px}.q-status{color:var(--muted);background:#f8f3ee;padding:3px 9px;border-radius:40px;line-height:1.5}.q-status.good{background:#e8f3eb;color:var(--green)}.q-status.wrong{background:#fbeae6;color:var(--red)}.prompt{margin:0 0 17px;font-size:15px;color:var(--ink);line-height:1.65;font-weight:500}.mcq-options{display:flex;flex-direction:column;gap:8px}.mcq-options .option{width:100%;text-align:left;display:flex;gap:12px;align-items:baseline;padding:11px 14px;line-height:1.55;font-size:13px}.choice-letter{min-width:18px;color:var(--orange);font-weight:800}.source-links{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.answer-options{display:flex;gap:10px;margin-bottom:14px}.option{background:white;border:1px solid var(--line);border-radius:8px;min-width:96px;padding:10px 22px;color:var(--muted);font-size:14px;font-weight:650}.option.selected{background:var(--peach);border-color:var(--orange);color:var(--burnt)}.answer-label{font-size:12px;color:var(--muted);display:block;margin-bottom:6px}.number-answer{border:1px solid #d7c7b6;border-radius:8px;padding:10px 12px;width:100%;max-width:300px;background:#fffdf9;font-size:15px}.written-answer{border:1px solid #d7c7b6;border-radius:8px;padding:12px;width:100%;min-height:110px;resize:vertical;background:#fffdf9;font-size:14px;line-height:1.6}.card-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.feedback{background:#f7f0e7;border-left:3px solid var(--orange);padding:13px 16px;border-radius:5px;margin-top:16px;font-size:13px}.feedback.good{border-color:var(--green);background:#eef7f0}.feedback.wrong{border-color:var(--red);background:#fff1ee}.feedback p{margin:4px 0}.hint{margin-top:13px;color:var(--muted);font-size:12px}.hint summary{cursor:pointer}.hint p{margin:6px 0}.guide{background:#fff4e6;border:1px solid #f2d3ab;border-radius:8px;margin-top:17px;padding:17px;font-size:13px}.guide h4{color:var(--burnt);margin:0 0 8px;font-size:12px;letter-spacing:.5px}.guide .self-note{border-top:1px solid #edcfaa;margin:14px 0 10px;padding-top:12px;font-size:12px;color:var(--muted)}.guide .btn.marked{background:var(--green);color:white;border-color:var(--green)}.matrix{max-width:430px;text-align:center;min-width:300px;font-family:Georgia,serif}.matrix td{text-align:center}.section-footer{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:20px;margin:30px 0 40px;gap:12px}.empty{padding:30px;text-align:center;background:#eef7f0;border-radius:12px;color:var(--green);margin:20px 0}.footer{padding:25px 0 0;border-top:1px solid var(--line);margin-top:30px;font-size:11px;color:var(--muted);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}#storage-note{font-size:12px;color:var(--red)}[hidden]{display:none!important}#print-view{display:none}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);border-radius:10px;padding:10px 18px;background:var(--ink);color:white;font-size:13px;box-shadow:var(--shadow);z-index:10;max-width:90vw}code{background:#fff;padding:2px 5px;border-radius:3px;font-size:.9em}dialog{border:1px solid var(--line);border-radius:15px;padding:28px;max-width:440px;color:var(--ink);box-shadow:0 20px 100px #0003}dialog::backdrop{background:#29221c66}dialog h2{font:600 25px Georgia,serif;margin:0 0 12px}dialog p{font-size:14px;color:var(--muted)}
+:root{--paper:#fffaf4;--white:#fff;--ink:#29221c;--muted:#726459;--orange:#c34c0d;--burnt:#963707;--peach:#ffeddc;--line:#eaded1;--green:#276247;--red:#a43327;--shadow:0 10px 35px #56391a09}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 "Aptos Mono","Cascadia Mono",Consolas,"Courier New",monospace}button,input,textarea,select{font:inherit}button,a,input,textarea,summary{ -webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{cursor:default}a{color:var(--burnt)}button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #ee8a36;outline-offset:4px}button{border:0}.skip{position:absolute;left:12px;top:-100px;z-index:5;padding:8px 16px;background:white}.skip:focus{top:10px}.topbar{background:var(--white);border-bottom:1px solid var(--line)}.top-inner{max-width:1320px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:22px 38px;gap:20px}.brand{display:flex;align-items:center;gap:13px}.mark{background:var(--orange);color:white;height:45px;width:45px;border-radius:13px;display:grid;place-items:center;font-size:24px;font-weight:700}.mark svg{width:34px;height:38px;overflow:visible}.brand b{display:block;font-size:13px;letter-spacing:1.7px}.brand small{display:block;color:var(--muted);font-size:12px}.badge{font-size:12px;color:var(--burnt);background:var(--peach);padding:6px 12px;border-radius:50px;font-weight:700;white-space:nowrap}.wrap{max-width:1320px;margin:auto;padding:38px}.hero{display:grid;grid-template-columns:1fr 320px;gap:42px;align-items:center;margin-bottom:32px}.eyebrow{color:var(--orange);font-weight:750;font-size:12px;letter-spacing:2px;text-transform:uppercase}.hero h1{font:600 clamp(34px,4vw,52px)/1.1 "Aptos Mono","Cascadia Mono",Consolas,"Courier New",monospace;margin:12px 0 17px;letter-spacing:-1px;max-width:700px}.hero h1 span{color:var(--orange)}.hero p{color:var(--muted);max-width:620px;margin:0}.hero .pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.pill{padding:5px 11px;background:white;border:1px solid var(--line);border-radius:50px;font-size:12px}.progress-card{background:white;padding:24px;border:1px solid var(--line);border-top:4px solid var(--orange);border-radius:16px;box-shadow:var(--shadow)}.progress-card .title{display:flex;justify-content:space-between;font-size:13px}.progress-card strong{font-size:32px;line-height:1.3;display:block;margin:10px 0}.progress-card strong span{font-size:14px;color:var(--muted);font-weight:400}.progress-track{height:7px;background:#f1e7dc;border-radius:10px;overflow:hidden;margin:12px 0}.progress-fill{height:100%;background:var(--orange);transition:width .3s}.progress-card p{font-size:12px}.layout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:30px;align-items:start}.sidebar{position:sticky;top:22px}.sidebar .label{font-size:11px;letter-spacing:1.6px;color:var(--muted);font-weight:750;margin:0 0 10px}.nav{display:flex;flex-direction:column;gap:5px}.nav button{display:flex;align-items:center;gap:10px;text-align:left;padding:13px 12px;border-radius:10px;color:var(--muted);background:none;line-height:1.3;font-size:13px;border:1px solid transparent}.nav button:hover{background:#f6eee4}.nav button.active{background:var(--peach);border-color:#f4c39b;color:var(--burnt);font-weight:700}.nav-num{height:27px;width:27px;flex-shrink:0;display:grid;place-items:center;background:white;border:1px solid var(--line);border-radius:7px;font-size:11px;font-weight:700}.nav-copy{flex:1}.nav-copy small{display:block;font-size:10px;margin-top:5px;opacity:.8;font-weight:400}.help-card{border-top:1px solid var(--line);padding-top:20px;margin-top:24px;color:var(--muted);font-size:12px}.help-card h3{font-size:13px;color:var(--ink);margin:0 0 8px}.help-card p{margin:5px 0}.quiz-banner{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;background:var(--peach);border:1px solid #efb887;border-radius:12px;padding:17px 19px;margin-bottom:16px}.quiz-banner strong{display:block;color:var(--burnt);font-size:15px}.quiz-banner p{margin:2px 0 0;font-size:12px;color:var(--muted)}.toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;background:white;border:1px solid var(--line);border-radius:12px;padding:13px 16px;margin-bottom:24px;flex-wrap:wrap}.name-box{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}.name-box input{border:0;border-bottom:1px solid var(--line);padding:5px 4px;background:none;max-width:180px;color:var(--ink)}.actions{display:flex;gap:8px;flex-wrap:wrap}.btn{border:1px solid var(--line);background:white;border-radius:8px;padding:8px 13px;font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:5px;justify-content:center;color:var(--ink)}.btn:hover{background:#faf3eb}.btn.primary{background:var(--orange);border-color:var(--orange);color:white}.btn.primary:hover{background:var(--burnt)}.btn.quiet{background:none;color:var(--muted);border-color:transparent}.view-controls{display:flex;gap:8px;align-items:center;margin-bottom:25px;flex-wrap:wrap}.view-controls .btn.active{border-color:var(--orange);background:var(--peach);color:var(--burnt)}.view-controls span{font-size:12px;color:var(--muted);margin-left:auto}.section-head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:18px}.section-head h2{font:600 28px/1.2 "Aptos Mono","Cascadia Mono",Consolas,"Courier New",monospace;margin:8px 0}.section-head p{color:var(--muted);font-size:13px;margin:0}.section-index{background:var(--orange);color:white;min-width:40px;height:40px;display:grid;place-items:center;border-radius:11px;font:600 23px "Aptos Mono","Cascadia Mono",Consolas,"Courier New",monospace}.context{border:1px solid var(--line);border-radius:13px;background:#f7f0e7;padding:24px;margin-bottom:24px;font-size:14px}.context p:first-child{margin-top:0}.context p:last-child{margin-bottom:0}.tablewrap{overflow-x:auto;margin:18px 0}table{border-collapse:collapse;width:100%;min-width:400px;text-align:right;background:white;border:1px solid var(--line);font-size:13px;font-variant-numeric:tabular-nums}caption{text-align:left;padding:0 0 8px;color:var(--muted);font-size:12px}th,td{padding:11px 13px;border-bottom:1px solid var(--line)}th:first-child{text-align:left}thead{background:#fdf8f2}.equation{background:white;border-left:3px solid var(--orange);padding:14px 18px;font-family:"Aptos Mono","Cascadia Mono",Consolas,"Courier New",monospace;font-size:17px;line-height:1.9;overflow-wrap:anywhere}.variables{display:grid;grid-template-columns:1fr 1fr;gap:9px;font-size:12px}.variables b{color:var(--burnt);margin-right:5px}.output{font:12px/1.9 "Aptos Mono","Cascadia Mono",Consolas,"Courier New",monospace;background:white;padding:15px;border:1px solid var(--line);border-radius:6px;overflow-wrap:anywhere}.source-note{border-top:1px solid #e4d3c0;margin-top:18px;padding-top:12px;font-size:12px;color:#66513d}.source-note summary{cursor:pointer;font-weight:700}.context-note{font-size:12px;color:var(--muted)}.r-link{font-size:13px;font-weight:700}.model-list p{background:white;border:1px solid var(--line);border-radius:6px;padding:13px;line-height:1.8}.model-list b{display:block;color:var(--orange);font-size:11px;text-transform:uppercase;letter-spacing:1px}.model-list span{display:block;font-weight:700;margin-top:4px}.card{border:1px solid var(--line);background:white;border-radius:13px;padding:24px;margin:0 0 16px;box-shadow:var(--shadow)}.card-top{display:flex;justify-content:space-between;gap:10px;font-size:11px;margin-bottom:12px;align-items:center}.q-label{font-weight:750;color:var(--orange);letter-spacing:1px}.q-status{color:var(--muted);background:#f8f3ee;padding:3px 9px;border-radius:40px;line-height:1.5}.q-status.good{background:#e8f3eb;color:var(--green)}.q-status.wrong{background:#fbeae6;color:var(--red)}.prompt{margin:0 0 17px;font-size:15px;color:var(--ink);line-height:1.65;font-weight:500}.mcq-options{display:flex;flex-direction:column;gap:8px}.mcq-options .option{width:100%;text-align:left;display:flex;gap:12px;align-items:baseline;padding:11px 14px;line-height:1.55;font-size:13px}.choice-letter{min-width:18px;color:var(--orange);font-weight:800}.source-links{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.answer-options{display:flex;gap:10px;margin-bottom:14px}.option{background:white;border:1px solid var(--line);border-radius:8px;min-width:96px;padding:10px 22px;color:var(--muted);font-size:14px;font-weight:650}.option.selected{background:var(--peach);border-color:var(--orange);color:var(--burnt)}.answer-label{font-size:12px;color:var(--muted);display:block;margin-bottom:6px}.number-answer{border:1px solid #d7c7b6;border-radius:8px;padding:10px 12px;width:100%;max-width:300px;background:#fffdf9;font-size:15px}.written-answer{border:1px solid #d7c7b6;border-radius:8px;padding:12px;width:100%;min-height:110px;resize:vertical;background:#fffdf9;font-size:14px;line-height:1.6}.card-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.feedback{background:#f7f0e7;border-left:3px solid var(--orange);padding:13px 16px;border-radius:5px;margin-top:16px;font-size:13px}.feedback.good{border-color:var(--green);background:#eef7f0}.feedback.wrong{border-color:var(--red);background:#fff1ee}.feedback p{margin:4px 0}.hint{margin-top:13px;color:var(--muted);font-size:12px}.hint summary{cursor:pointer}.hint p{margin:6px 0}.guide{background:#fff4e6;border:1px solid #f2d3ab;border-radius:8px;margin-top:17px;padding:17px;font-size:13px}.guide h4{color:var(--burnt);margin:0 0 8px;font-size:12px;letter-spacing:.5px}.guide .self-note{border-top:1px solid #edcfaa;margin:14px 0 10px;padding-top:12px;font-size:12px;color:var(--muted)}.guide .btn.marked{background:var(--green);color:white;border-color:var(--green)}.matrix{max-width:430px;text-align:center;min-width:300px;font-family:"Aptos Mono","Cascadia Mono",Consolas,"Courier New",monospace}.matrix td{text-align:center}.section-footer{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:20px;margin:30px 0 40px;gap:12px}.empty{padding:30px;text-align:center;background:#eef7f0;border-radius:12px;color:var(--green);margin:20px 0}.footer{padding:25px 0 0;border-top:1px solid var(--line);margin-top:30px;font-size:11px;color:var(--muted);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}#storage-note{font-size:12px;color:var(--red)}[hidden]{display:none!important}#print-view{display:none}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);border-radius:10px;padding:10px 18px;background:var(--ink);color:white;font-size:13px;box-shadow:var(--shadow);z-index:10;max-width:90vw}code{background:#fff;padding:2px 5px;border-radius:3px;font-size:.9em}dialog{border:1px solid var(--line);border-radius:15px;padding:28px;max-width:440px;color:var(--ink);box-shadow:0 20px 100px #0003}dialog::backdrop{background:#29221c66}dialog h2{font:600 25px "Aptos Mono","Cascadia Mono",Consolas,"Courier New",monospace;margin:0 0 12px}dialog p{font-size:14px;color:var(--muted)}
 @media(max-width:1000px){.wrap{padding:25px}.top-inner{padding:18px 25px}.layout{grid-template-columns:190px 1fr;gap:20px}.hero{grid-template-columns:1fr 280px;gap:20px}.toolbar .actions{width:100%}}
-@media(max-width:760px){.hero{grid-template-columns:1fr;gap:22px}.progress-card{padding:18px}.progress-card strong{font-size:26px}.layout{display:block}.sidebar{position:static;margin-bottom:22px}.nav{display:grid;grid-template-columns:1fr 1fr;gap:6px}.nav button{padding:9px;font-size:12px}.help-card{display:none}.hero h1{font-size:36px}.wrap{padding:22px 16px}.top-inner{padding:16px}.badge{font-size:10px}.brand b{font-size:11px}.card,.context{padding:19px}.variables{grid-template-columns:1fr}.view-controls span{width:100%;margin:0}.section-head h2{font-size:25px}.top-inner .mark{width:37px;height:37px}.name-box input{max-width:150px}.toolbar{padding:13px}}
-@media print{body{background:white;font-size:10pt;color:black}.topbar,.wrap,.toast,dialog{display:none!important}#print-view{display:block}#print-view h1{font-size:22pt;font-family:Georgia,serif;color:#963707}#print-view h2{font-size:15pt;border-bottom:1px solid #c34c0d;padding-bottom:6px;break-after:avoid}#print-view h3{font-size:11pt;margin-bottom:5px;break-after:avoid}#print-view .print-question{margin:14px 0;border-bottom:1px solid #ddd;padding-bottom:12px;break-inside:avoid}#print-view .context{font-size:9pt;padding:12px;background:white;border-color:#ddd;box-shadow:none}#print-view .context .source-note{display:block}#print-view .context .source-note p{display:block}#print-view .context a,#print-view .context summary{display:none}#print-view table{min-width:0;font-size:9pt}#print-view th,#print-view td{padding:5px}#print-view .equation{font-size:11pt}#print-view .print-answer{white-space:pre-wrap;overflow-wrap:anywhere;padding:8px;background:#f8f8f8}#print-view .print-status{font-size:8pt;color:#555}#print-view .print-guide{font-size:9pt;border-left:2px solid #c34c0d;padding-left:10px}#print-view .print-guide p{margin:5px 0}#print-view section{break-before:auto}#print-view .output{font-size:8pt}@page{size:A4;margin:16mm}}
+@media(max-width:760px){.hero{grid-template-columns:1fr;gap:22px}.progress-card{padding:18px}.progress-card strong{font-size:26px}.layout{display:block}.sidebar{position:static;margin-bottom:22px}.nav{display:grid;grid-template-columns:1fr 1fr;gap:6px}.nav button{padding:9px;font-size:12px}.help-card{display:none}.hero h1{font-size:36px}.wrap{padding:22px 16px}.top-inner{padding:16px}.badge{font-size:10px}.brand b{font-size:11px;letter-spacing:1px}.top-inner{flex-wrap:wrap;gap:10px}.card,.context{padding:19px}.variables{grid-template-columns:1fr}.view-controls span{width:100%;margin:0}.section-head h2{font-size:25px}.top-inner .mark{width:37px;height:37px}.name-box input{max-width:150px}.toolbar{padding:13px}}
+@media print{body{background:white;font-size:10pt;color:black}.topbar,.wrap,.toast,dialog{display:none!important}#print-view{display:block}#print-view h1{font-size:22pt;font-family:"Aptos Mono","Cascadia Mono",Consolas,"Courier New",monospace;color:#963707}#print-view h2{font-size:15pt;border-bottom:1px solid #c34c0d;padding-bottom:6px;break-after:avoid}#print-view h3{font-size:11pt;margin-bottom:5px;break-after:avoid}#print-view .print-question{margin:14px 0;border-bottom:1px solid #ddd;padding-bottom:12px;break-inside:avoid}#print-view .context{font-size:9pt;padding:12px;background:white;border-color:#ddd;box-shadow:none}#print-view .context .source-note{display:block}#print-view .context .source-note p{display:block}#print-view .context a,#print-view .context summary{display:none}#print-view table{min-width:0;font-size:9pt}#print-view th,#print-view td{padding:5px}#print-view .equation{font-size:11pt}#print-view .print-answer{white-space:pre-wrap;overflow-wrap:anywhere;padding:8px;background:#f8f8f8}#print-view .print-status{font-size:8pt;color:#555}#print-view .print-guide{font-size:9pt;border-left:2px solid #c34c0d;padding-left:10px}#print-view .print-guide p{margin:5px 0}#print-view section{break-before:auto}#print-view .output{font-size:8pt}@page{size:A4;margin:16mm}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to questions</a>
-<header class="topbar"><div class="top-inner"><div class="brand"><span class="mark" aria-hidden="true">β</span><div><b>APPLIED REGRESSION</b><small>Dr. Atandoh · Mercer University</small></div></div><span class="badge">STA 440 · TEST REVIEW</span></div></header>
+<header class="topbar"><div class="top-inner"><div class="brand"><span class="mark" role="img" aria-label="Beta hat"><svg viewBox="0 0 40 44" aria-hidden="true" focusable="false"><text x="20" y="35" text-anchor="middle" fill="currentColor" font-size="28" font-weight="700">β</text><path d="M15 9 L20 5 L25 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><b>APPLIED REGRESSION ANALYSIS</b><small>Dr. Atandoh</small></div></div><span class="badge">STA 440 · TEST REVIEW</span></div></header>
 <div class="wrap">
-<div class="hero"><div><div class="eyebrow">Practice. Explain. Build confidence.</div><h1>Make regression<br><span>make sense.</span></h1><p>Work through your test questions and an additional MAS-I regression practice section. Check your calculations and strengthen your reasoning—one step at a time.</p><div class="pills"><span class="pill">5 main questions + bonus</span><span class="pill">12 MAS-I-style items</span><span class="pill">44 review items</span><span class="pill">Your progress stays here</span></div></div><aside class="progress-card" aria-label="Review progress"><div class="title"><b>Your review progress</b><span id="progress-percent">0%</span></div><strong id="progress-count">0 <span>/ 44 items reviewed</span></strong><div class="progress-track" role="progressbar" aria-label="Items reviewed" aria-valuemin="0" aria-valuemax="44" aria-valuenow="0" id="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div><p id="accuracy">31 items can be checked automatically.</p><p id="self-count">Written responses use your own self-review.</p></aside></div>
+<div class="hero"><div><div class="eyebrow">Practice. Explain. Build confidence.</div><h1>Make regression<br><span>make sense.</span></h1><p>Work through the questions, Quiz 2, and additional MAS-I and SOA regression practice sections. Check your calculations and strengthen your reasoning—one step at a time. Make sure the answers make sense to you.</p><div class="pills"><span class="pill">5 main questions + bonus</span><span class="pill">12 MAS-I-style items</span><span class="pill">6 SOA topic practice items</span><button class="pill" data-section="8" style="color:var(--burnt);border-color:var(--orange);font-weight:700">Open 15 Quiz 2 questions →</button><span class="pill">65 review items</span><span class="pill">Your progress stays here</span></div></div><aside class="progress-card" aria-label="Review progress"><div class="title"><b>Your review progress</b><span id="progress-percent">0%</span></div><strong id="progress-count">0 <span>/ 65 items reviewed</span></strong><div class="progress-track" role="progressbar" aria-label="Items reviewed" aria-valuemin="0" aria-valuemax="65" aria-valuenow="0" id="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div><p id="accuracy">51 items can be checked automatically.</p><p id="self-count">Written responses use your own self-review.</p></aside></div>
 <div class="layout"><aside class="sidebar"><p class="label">YOUR REVIEW PATH</p><nav class="nav" id="section-nav" aria-label="Question sections"></nav><div class="help-card"><h3>A good way to practice</h3><p>Try each item before opening its solution. For written work, compare your response with the guide and mark it reviewed.</p><p>This is practice feedback, not an exam grade.</p></div></aside>
-<main id="main"><div class="toolbar"><label class="name-box">Your name <input id="student-name" autocomplete="name" placeholder="Optional" maxlength="100"></label><div class="actions"><button class="btn" id="print-button">Save review as PDF ↗</button><button class="btn quiet" id="reset-button">Reset progress</button></div></div><p id="storage-note" hidden>Progress could not be saved on this browser. You can still practice and save your review as PDF.</p><div class="view-controls"><button class="btn active" id="all-filter" aria-pressed="true">All items</button><button class="btn" id="missed-filter" aria-pressed="false">Needs another look</button><button class="btn" id="show-all" aria-pressed="false">View all sections</button><span id="view-label">Start with Question 1.</span></div><div id="sections"></div></main></div>
-<footer class="footer"><span>Original test: STA 440 Test 1 · Fall 2025. Additional original MAS-I-style regression practice with CAS resource links.</span><span>Practice review · Answers saved on this browser</span></footer>
+<main id="main"><aside class="quiz-banner"><div><strong>Quiz 2 is ready</strong><p>15 questions · Regression &amp; matrix algebra</p></div><button class="btn primary" data-section="8">Open Quiz 2 →</button></aside><div class="toolbar"><label class="name-box">Your name <input id="student-name" autocomplete="name" placeholder="Optional" maxlength="100"></label><div class="actions"><button class="btn" id="print-button">Save review as PDF ↗</button><button class="btn quiet" id="reset-button">Reset progress</button></div></div><p id="storage-note" hidden>Progress could not be saved on this browser. You can still practice and save your review as PDF.</p><div class="view-controls"><button class="btn active" id="all-filter" aria-pressed="true">All items</button><button class="btn" id="missed-filter" aria-pressed="false">Needs another look</button><button class="btn" id="show-all" aria-pressed="false">View all sections</button><span id="view-label">Start with Question 1.</span></div><div id="sections"></div></main></div>
+<footer class="footer"><span>Original Test STA 440 Fall 2025. With Additional Related original MAS-I and SOA topic practice with official resource links. Includes STA 440 Quiz 2.</span><span>Practice review · Answers saved on this browser</span></footer>
 </div>
 <div id="print-view"></div><div id="toast" class="toast" role="status" hidden></div>
 <dialog id="reset-dialog"><h2>Start a fresh review?</h2><p>This clears your answers and review progress on this browser. Any PDF you have already saved stays available.</p><div class="actions"><button class="btn" id="cancel-reset">Keep my progress</button><button class="btn primary" id="confirm-reset">Reset review</button></div></dialog>
@@ -647,6 +647,400 @@
       "hint": "Solve the normal equations, keeping the intercept first.",
       "unit": "",
       "tol": 0
+    },
+    {
+      "id": "soa-1",
+      "group": 7,
+      "label": "SOA practice 1",
+      "topic": "SSE from observed and fitted values",
+      "prompt": "A regression model has observed responses (3, 5, 8, 7) and corresponding fitted values (2, 6, 6, 8). Calculate the sum of squared errors (SSE).",
+      "kind": "number",
+      "answer": 7,
+      "guide": "The residuals are (1, −1, 2, −1). SSE = 1² + (−1)² + 2² + (−1)² = 7. Sum the squared residuals, rather than the residuals themselves.",
+      "hint": "Subtract each fitted value from its observed value, square each difference, and sum.",
+      "unit": "SSE",
+      "tol": 0.0005,
+      "source": {
+        "title": "SRM sample question 11",
+        "url": "https://www.soa.org/globalassets/assets/files/edu/2018/exam-srm-sample-questions.pdf#page=10"
+      }
+    },
+    {
+      "id": "soa-2",
+      "group": 7,
+      "label": "SOA practice 2",
+      "topic": "Least squares and prediction",
+      "prompt": "An insurer fits an ordinary least squares line with an intercept to the three observations (x, y) = (1, 150), (2, 190), and (3, 230). What fitted response does the line give at x = 4?",
+      "kind": "number",
+      "answer": 270,
+      "guide": "These observations lie exactly on y = 110 + 40x. At x = 4, the fitted response is 110 + 40(4) = 270. Because x = 4 is outside the observed range 1–3, applying this prediction in practice would require caution about extrapolation.",
+      "hint": "Identify the change in y for a one-unit increase in x, then obtain the intercept.",
+      "unit": "Fitted response",
+      "tol": 0.005,
+      "source": {
+        "title": "SRM sample question 23",
+        "url": "https://www.soa.org/globalassets/assets/files/edu/2018/exam-srm-sample-questions.pdf#page=17"
+      }
+    },
+    {
+      "id": "soa-3",
+      "group": 7,
+      "label": "SOA practice 3",
+      "topic": "Overall F-statistic and R²",
+      "prompt": "A multiple regression with an intercept and three predictors is fitted to n = 61 observations. Its overall F-statistic is 9.5. Calculate R².",
+      "kind": "number",
+      "answer": 0.3333333333333333,
+      "guide": "For k slopes, F = (R²/k)/[(1 − R²)/(n − k − 1)]. Rearranging gives R² = kF/[kF + n − k − 1] = 3(9.5)/[3(9.5) + 57] = 28.5/85.5 = 1/3 ≈ 0.3333.",
+      "hint": "Write F in terms of R² and the two degrees of freedom, then solve for R².",
+      "unit": "R² as a proportion (at least three decimals)",
+      "tol": 0.0006,
+      "source": {
+        "title": "SRM sample question 24",
+        "url": "https://www.soa.org/globalassets/assets/files/edu/2018/exam-srm-sample-questions.pdf#page=18"
+      }
+    },
+    {
+      "id": "soa-4",
+      "group": 7,
+      "label": "SOA practice 4",
+      "topic": "Nested-model F-test",
+      "prompt": "An intercept-only model has SSE = 580. Adding one predictor reduces SSE to 380. Both least squares fits use the same n = 40 observations. Calculate the partial F-statistic for adding the predictor.",
+      "kind": "number",
+      "answer": 20,
+      "guide": "Extra SSR = 580 − 380 = 200, with 1 numerator degree of freedom. The full model estimates an intercept and one slope, so MSE(full) = 380/(40 − 2) = 10. Therefore F = (200/1)/10 = 20.",
+      "hint": "Compare the reduced and full SSE values, using full-model MSE in the denominator.",
+      "unit": "Partial F-statistic",
+      "tol": 0.005,
+      "source": {
+        "title": "SRM sample question 44",
+        "url": "https://www.soa.org/globalassets/assets/files/edu/2018/exam-srm-sample-questions.pdf#page=32"
+      }
+    },
+    {
+      "id": "soa-5",
+      "group": 7,
+      "label": "SOA practice 5",
+      "topic": "Intercept and slope interpretation",
+      "prompt": "For the population model Y = 120 + 18X + ε with E(ε | X) = 0, which interpretation of the intercept is correct?",
+      "kind": "mcq",
+      "answer": 2,
+      "guide": "The intercept is E(Y | X = 0) = 120. It is not generally the unconditional mean E(Y), because E(Y) = 120 + 18E(X). Whether the intercept has a useful practical interpretation depends on whether X = 0 is meaningful and within the relevant data range.",
+      "hint": "Set X equal to zero in the conditional mean equation.",
+      "unit": "",
+      "tol": 0.001,
+      "source": {
+        "title": "SRM sample question 53",
+        "url": "https://www.soa.org/globalassets/assets/files/edu/2018/exam-srm-sample-questions.pdf#page=38"
+      },
+      "options": [
+        "The unconditional mean of Y is always 120.",
+        "The expected response increases by 120 per one-unit increase in X.",
+        "The expected response is 120 when X = 0.",
+        "The variance of the errors is 120.",
+        "All observations with X = 0 must have Y = 120."
+      ]
+    },
+    {
+      "id": "soa-6",
+      "group": 7,
+      "label": "SOA practice 6",
+      "topic": "Interpreting coefficients for a transformed response",
+      "prompt": "A fitted model for a positive response is E[log(Y) | X₁, X₂] = 2.10 + 0.060X₁ − 0.025X₂. Interpret the coefficient of X₁, holding X₂ constant, both on the log scale and as a multiplicative change in the modeled geometric mean of Y.",
+      "kind": "written",
+      "answer": null,
+      "guide": "A one-unit increase in X₁ raises the expected log(response) by 0.060, holding X₂ constant. Exponentiating gives exp(0.060) ≈ 1.06184, so the modeled geometric mean of Y increases by about 6.18%. This is not an increase of 0.060 original-scale units or exactly 6%. Predicting the original-scale arithmetic mean requires attention to retransformation and the error distribution.",
+      "hint": "First interpret the slope on the modeled log scale. Then exponentiate the coefficient to obtain the multiplicative factor.",
+      "unit": "",
+      "tol": 0.001,
+      "source": {
+        "title": "April 2025 PA task 5(c)",
+        "url": "https://www.soa.org/globalassets/assets/files/edu/2025/spring/solutions/2025-04-pa-model-soln.pdf#page=16"
+      }
+    },
+    {
+      "id": "quiz2-1",
+      "group": 8,
+      "label": "Quiz 2 · 1",
+      "prompt": "An additive fitted model is Ŷ = 10 − 1.5X₁ + 2X₂. Two cases/observations differ by ΔX₁ = 2 and ΔX₂ = 3. Which statement correctly describes their difference in predicted response?",
+      "options": [
+        "It is −3, because the coefficient of X₁ is negative.",
+        "It is 6, because the effect of X₂ dominates.",
+        "It is 3, found by combining both predictor changes.",
+        "It cannot be calculated without the observed responses."
+      ],
+      "answer": 2,
+      "guide": "ΔŶ = −1.5(2) + 2(3) = −3 + 6 = 3. The intercept cancels when subtracting two predictions. Account for both predictor changes.",
+      "hint": "For an additive model, add the slope-weighted changes in each predictor.",
+      "topic": "Combined predictor changes",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-2",
+      "group": 8,
+      "label": "Quiz 2 · 2",
+      "prompt": "Consider Yᵢ = β₀ + β₁xᵢ + β₂xᵢ² + β₃Dᵢ + β₄xᵢDᵢ + εᵢ, where Dᵢ represents a binary categorical variable, coded 1 for Group A and 0 for Group B. For xᵢ = 2 and Dᵢ = 1, which statement is correct when the columns follow the parameter order shown?",
+      "options": [
+        "The model is linear in its parameters, and the design row is (1, 2, 4, 1, 2).",
+        "The model is nonlinear in its parameters, and the design row is (1, 2, 4, 1, 2).",
+        "The model is linear in its parameters, and the design row is (1, 2, 2, 1, 4).",
+        "The model is nonlinear in its parameters, and the design row is (1, 2, 2, 1, 4)."
+      ],
+      "answer": 0,
+      "guide": "The model is linear in β₀,…,β₄ even though it contains a squared predictor and an interaction. The design row is (1, xᵢ, xᵢ², Dᵢ, xᵢDᵢ) = (1, 2, 4, 1, 2).",
+      "hint": "“Linear model” concerns how the coefficients enter the equation, not whether every predictor appears to the first power.",
+      "topic": "Polynomial and interaction design row",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-3",
+      "group": 8,
+      "label": "Quiz 2 · 3",
+      "prompt": "A fitted additive model is Ŷ = 12 + 0.8X − 2.5D, where D = 1 for Group A and D = 0 for Group B. Which interpretation is correct?",
+      "options": [
+        "Group A has a slope of −2.5 with respect to X, while Group B has slope 0.8.",
+        "Group A has an observed response exactly 2.5 lower than Group B for every case.",
+        "Group membership causes a 2.5-unit decrease in the response.",
+        "At the same X, Group A has a predicted response 2.5 lower than Group B; both fitted lines have slope 0.8."
+      ],
+      "answer": 3,
+      "guide": "For Group A, Ŷ = 9.5 + 0.8X; for Group B, Ŷ = 12 + 0.8X. The fitted lines are parallel, differing by −2.5 at a fixed X. This is a predicted-response comparison, not an exact observed difference or a causal conclusion.",
+      "hint": "Write the fitted equation once for D = 1 and once for D = 0.",
+      "topic": "Categorical predictor interpretation",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-4",
+      "group": 8,
+      "label": "Quiz 2 · 4",
+      "prompt": "Consider E(Y | X, Z) = 5 + 2X + 3Z + 0.5XZ. What is the change in mean response when X increases by one unit while Z is held fixed at 4?",
+      "options": [
+        "2, because the coefficient of X is 2.",
+        "4, because the effect of X at Z = 4 is 2 + 0.5(4).",
+        "12, because the coefficient of Z is multiplied by 4.",
+        "14, because both main effects must be added."
+      ],
+      "answer": 1,
+      "guide": "At fixed Z, the slope with respect to X is 2 + 0.5Z. With Z = 4, it is 2 + 0.5(4) = 4. The main effect 3Z does not change because Z stays fixed.",
+      "hint": "The interaction makes the slope for X depend on Z.",
+      "topic": "Interaction effects",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-5",
+      "group": 8,
+      "label": "Quiz 2 · 5",
+      "prompt": "A fitted model for log(Y) is predicted log(Y) = 3 − 0.2 log(X) + 0.01Z, with X, Y > 0. If log(X) increases by one unit while Z is fixed, which interpretation follows directly from this equation?",
+      "options": [
+        "The predicted average value of Y decreases by exactly 0.2 units.",
+        "The predicted average value of Y decreases by exactly 20%.",
+        "The predicted average value of log(Y) decreases by 0.2 units.",
+        "The predicted average value of log(Y) decreases by 0.01 units."
+      ],
+      "answer": 2,
+      "guide": "The response modeled here is log(Y). A one-unit increase in log(X) changes predicted log(Y) by −0.2, holding Z constant. This directly states a log-scale change; it does not imply a decrease of 0.2 original-scale units or exactly 20%.",
+      "hint": "Identify the scale of the response on the left-hand side of the model.",
+      "topic": "Transformed-response interpretation",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-6",
+      "group": 8,
+      "label": "Quiz 2 · 6",
+      "prompt": "An OLS model with an intercept is fitted to n = 40 observations using four predictors. Its SSE is 140. An analyst reports σ̂² = 140/40 = 3.5. Which correction is appropriate?",
+      "options": [
+        "Use 140/4 = 35, because there are four predictors.",
+        "Use 140/39 ≈ 3.59, because an intercept is included.",
+        "Use √(140/40) ≈ 1.87 as the variance estimate.",
+        "Use 140/(40 − 4 − 1) = 4, accounting for five estimated coefficients."
+      ],
+      "answer": 3,
+      "guide": "The unbiased variance estimate uses residual df = n − p − 1 = 40 − 4 − 1 = 35. Thus σ̂² = MSE = 140/35 = 4. Taking the square root would estimate the error standard deviation, not its variance.",
+      "hint": "Count four slopes and one intercept.",
+      "topic": "Error variance and degrees of freedom",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-7",
+      "group": 8,
+      "label": "Quiz 2 · 7",
+      "prompt": "For one slope, β̂₁ = 0.60 and its estimated variance is 0.04. Using t* = 2 for a two-sided 95% confidence interval, which result and inference are correct?",
+      "options": [
+        "The interval is (0.20, 1.00), and the corresponding two-sided test rejects β₁ = 0 at 5%.",
+        "The interval is (0.52, 0.68), and the corresponding two-sided test rejects β₁ = 0 at 5%.",
+        "The interval is (−0.20, 1.40), and the corresponding two-sided test fails to reject β₁ = 0 at 5%.",
+        "The interval is (0.20, 1.00), and the corresponding two-sided test fails to reject β₁ = 0 at 5%."
+      ],
+      "answer": 0,
+      "guide": "SE(β̂₁) = √0.04 = 0.20. The interval is 0.60 ± 2(0.20) = (0.20, 1.00). It excludes zero, so the corresponding two-sided test rejects H₀: β₁ = 0 at the 5% level.",
+      "hint": "Convert the estimated variance to a standard error before constructing the interval.",
+      "topic": "Slope confidence interval",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-8",
+      "group": 8,
+      "label": "Quiz 2 · 8",
+      "prompt": "The estimated covariance matrix for two slopes is Var̂[(β̂₁, β̂₂)ᵀ] = [[0.36, −0.08], [−0.08, 0.16]]. What is the estimated variance of the contrast β̂₁ − β̂₂?",
+      "options": [
+        "0.52.",
+        "0.68.",
+        "0.36.",
+        "0.20."
+      ],
+      "answer": 1,
+      "guide": "Var̂(β̂₁ − β̂₂) = Var̂(β̂₁) + Var̂(β̂₂) − 2Cov̂(β̂₁, β̂₂) = 0.36 + 0.16 − 2(−0.08) = 0.68. The negative covariance increases the variance of this difference.",
+      "hint": "Use Var(A − B) = Var(A) + Var(B) − 2Cov(A, B).",
+      "topic": "Variance of a contrast",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-9",
+      "group": 8,
+      "label": "Quiz 2 · 9",
+      "prompt": "A normal-error model fitted to n = 30 observations contains three predictors and an intercept. For X₂, β̂₂ = −0.80 and SE(β̂₂) = 0.25. The two-sided 5% critical value for 26 degrees of freedom is 2.056. Which conclusion is justified?",
+      "options": [
+        "t = −3.20 with 29 degrees of freedom; all three slopes differ from zero.",
+        "t = −0.20 with 26 degrees of freedom; there is insufficient evidence about β₂.",
+        "t = −3.20 with 26 degrees of freedom; X₂ causes the response to decrease.",
+        "t = −3.20 with 26 degrees of freedom; there is evidence that β₂ ≠ 0, adjusting for the other predictors."
+      ],
+      "answer": 3,
+      "guide": "t = (−0.80 − 0)/0.25 = −3.20, with df = 30 − 3 − 1 = 26. Since |t| = 3.20 > 2.056, reject H₀: β₂ = 0. This provides evidence of a conditional association, not causation or evidence that all slopes differ from zero.",
+      "hint": "Compare the absolute t-statistic with the supplied two-sided critical value.",
+      "topic": "Individual slope test",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-10",
+      "group": 8,
+      "label": "Quiz 2 · 10",
+      "prompt": "Consider Yᵢ = β₀ + β₁xᵢ + β₂zᵢ + εᵢ for the observations (xᵢ, zᵢ) = (0, 1), (1, 0), (2, 1), listed in that order. With β = (β₀, β₁, β₂)ᵀ, which design matrix correctly represents Y = Xβ + ε?",
+      "options": [
+        "X = [[1, 0, 1], [1, 1, 0], [1, 2, 1]].",
+        "X = [[1, 1, 1], [0, 1, 2], [1, 0, 1]].",
+        "X = [[0, 1], [1, 0], [2, 1]].",
+        "X = [[1, 1, 0], [1, 0, 1], [1, 1, 2]]."
+      ],
+      "answer": 0,
+      "guide": "Each row must be (1, xᵢ, zᵢ) in the specified observation order. The three rows are (1, 0, 1), (1, 1, 0), and (1, 2, 1), giving the matrix in A. The first column of ones represents the intercept.",
+      "hint": "Rows correspond to observations; columns correspond to the coefficient order.",
+      "topic": "Design matrix ordering",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-11",
+      "group": 8,
+      "label": "Quiz 2 · 11",
+      "prompt": "The observed predictor pairs have both coordinates between 0 and 10, but lie in a narrow band near X₂ = X₁. An analyst predicts at (X₁, X₂) = (2, 8). Which assessment is most defensible?",
+      "options": [
+        "The prediction is interpolation because both coordinates are within their separate ranges.",
+        "The prediction is within scope whenever the fitted overall F test is significant.",
+        "The prediction may extrapolate beyond the joint predictor region despite being inside both separate ranges.",
+        "The prediction is within scope whenever the fitted R² exceeds 0.90."
+      ],
+      "answer": 2,
+      "guide": "The data occupy a narrow joint region near the diagonal X₂ = X₁. The point (2, 8) is far from that region even though both coordinates separately fall between 0 and 10. Predictor ranges alone do not establish that a prediction is interpolation.",
+      "hint": "Check the joint predictor region, not just the marginal ranges.",
+      "topic": "Joint-region extrapolation",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-12",
+      "group": 8,
+      "label": "Quiz 2 · 12",
+      "prompt": "An OLS model with an intercept has centered total sum of squares SSTO = 300 and error sum of squares SSE = 90. Which interpretation of the model’s R² is correct?",
+      "options": [
+        "It explains 30% of the observed variation in the response about its mean.",
+        "It explains 70% of the observed variation in the response about its mean.",
+        "It predicts 70% of the individual responses without error.",
+        "It establishes that 70% of the response is caused by the predictors."
+      ],
+      "answer": 1,
+      "guide": "R² = 1 − SSE/SSTO = 1 − 90/300 = 0.70. The model explains 70% of the observed variation in Y about its sample mean. This does not imply error-free prediction or a causal percentage.",
+      "hint": "Compute the unexplained proportion first, then subtract it from one.",
+      "topic": "R² interpretation",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-13",
+      "group": 8,
+      "label": "Quiz 2 · 13",
+      "prompt": "A normal-error model has n = 25, three predictors, an intercept, SSTO = 200, and SSE = 80. Which statement correctly gives the overall regression test?",
+      "options": [
+        "F = 1.50 with (3, 21) degrees of freedom, testing all three slopes jointly.",
+        "F = 10.50 with (3, 24) degrees of freedom, testing all three slopes jointly.",
+        "F = 10.50 with (3, 21) degrees of freedom, testing whether every slope is nonzero.",
+        "F = 10.50 with (3, 21) degrees of freedom, testing H₀: β₁ = β₂ = β₃ = 0."
+      ],
+      "answer": 3,
+      "guide": "SSR = 200 − 80 = 120; regression df = 3 and error df = 25 − 3 − 1 = 21. F = (120/3)/(80/21) = 10.50. The null sets all three slopes to zero; the alternative is that at least one slope is nonzero, not that every slope is nonzero.",
+      "hint": "Use the correct degrees of freedom and distinguish “at least one” from “every.”",
+      "topic": "Overall regression test",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-14",
+      "group": 8,
+      "label": "Quiz 2 · 14",
+      "prompt": "Two nested OLS models use the same observations and include an intercept. Why can adjusted R² increase or decrease when one new predictor is added, even though ordinary R² cannot decrease?",
+      "options": [
+        "Adjusted R² must increase because SSE cannot increase when a predictor is added.",
+        "Adjusted R² increases whenever SSE decreases, regardless of the size of that decrease.",
+        "Adjusted R² increases only when SSE decreases enough to offset the loss of a residual degree of freedom; otherwise it stays unchanged or decreases.",
+        "Adjusted R² must decrease because a new predictor always reduces the residual degrees of freedom."
+      ],
+      "answer": 2,
+      "guide": "Adjusted R² = 1 − [SSE/(n − p − 1)]/[SSTO/(n − 1)]. Adding a predictor cannot increase the minimized SSE, but it also decreases residual degrees of freedom. Adjusted R² improves only if residual mean square decreases enough; equality leaves it unchanged.",
+      "hint": "Compare error mean squares, not just the unadjusted SSE.",
+      "topic": "Adjusted R² tradeoff",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
+    },
+    {
+      "id": "quiz2-15",
+      "group": 8,
+      "label": "Quiz 2 · 15",
+      "prompt": "For an OLS model with a design matrix, let H = X(XᵀX)⁻¹Xᵀ and Ŷ = HY. Which set of properties is correct?",
+      "options": [
+        "Hᵀ = H, H² = H, and HŶ = Ŷ.",
+        "Hᵀ = H, H² = I, and HŶ = Ŷ.",
+        "Hᵀ = −H, H² = H, and HŶ = Ŷ.",
+        "Hᵀ = H, H² = H, and HŶ = 0 for every response vector."
+      ],
+      "answer": 0,
+      "guide": "Assuming X has full column rank, H is symmetric and idempotent: Hᵀ = H and H² = H. Since Ŷ = HY, HŶ = H²Y = HY = Ŷ. A vector already in the fitted column space is unchanged by the projection.",
+      "hint": "Apply H a second time to the fitted vector.",
+      "topic": "Hat matrix properties",
+      "kind": "mcq",
+      "unit": "",
+      "tol": 0
     }
   ],
   "groups": [
@@ -690,38 +1084,51 @@
       "title": "MAS-I: Regression Practice",
       "short": "MAS-I practice",
       "tag": "Actuarial exam connection",
-      "context": "<p><strong>12 original MAS-I-style practice questions</strong> connect the regression topics in this review to actuarial exam preparation. These are instructor-created practice items, not official CAS exam questions.</p><p>Coverage: coefficient interpretation, least squares, matrix representation, hat matrices, error variance, ANOVA, partial F-tests, extra sum of squares, R² and adjusted R².</p><div class=\"source-links\"><a class=\"btn\" href=\"https://www.casact.org/sites/default/files/2026-06/MASI_ContentOutline_2026.pdf\" target=\"_blank\" rel=\"noopener\">CAS 2026 content outline ↗</a><a class=\"btn\" href=\"https://www.casact.org/sites/default/files/2021-04/MASI_Sample_Questions.pdf\" target=\"_blank\" rel=\"noopener\">Official CAS sample questions ↗</a><a class=\"btn\" href=\"https://www.casact.org/exam/exam-mas-i-modern-actuarial-statistics-i\" target=\"_blank\" rel=\"noopener\">CAS MAS-I exam resources ↗</a></div><p class=\"context-note\">Alignment: the CAS 2026 outline, Domain C (Extended Linear Models), includes evaluating models, interpreting coefficient/ANOVA output, and R². Least squares and projection questions reinforce the regression foundations used here. This section covers the overlapping topics; it is not a complete MAS-I review. The official sample PDF covers additional topics beyond this app.</p><p class=\"context-note\">Choose one answer (A–E), then check it. Work through the calculation or reasoning before viewing the solution.</p>"
+      "context": "<p><strong>12 original MAS-I-style practice questions</strong> connect the regression topics in this review to actuarial exam preparation. These are instructor-created practice items, not official CAS exam questions.</p><p>Coverage: coefficient interpretation, least squares, matrix representation, hat matrices, error variance, ANOVA, partial F-tests, extra sum of squares, R² and adjusted R².</p><div class=\"source-links\"><a class=\"btn\" href=\"https://www.casact.org/sites/default/files/2021-04/MASI_Sample_Questions.pdf\" target=\"_blank\" rel=\"noopener\">Official CAS sample questions ↗</a></div><p class=\"context-note\">Alignment: the CAS 2026 outline, Domain C (Extended Linear Models), includes evaluating models, interpreting coefficient/ANOVA output, and R². Least squares and projection questions reinforce the regression foundations used here. This section covers the overlapping topics; it is not a complete MAS-I review. The official sample PDF covers additional topics beyond this app.</p><p class=\"context-note\">Choose one answer (A–E), then check it. Work through the calculation or reasoning before viewing the solution.</p>"
+    },
+    {
+      "title": "SOA: SRM & Predictive Analytics",
+      "short": "SOA practice",
+      "tag": "Official sources · Original practice",
+      "context": "<p><strong>Official SOA questions + interactive topic practice.</strong> Use the links below to work on the selected official items. The six interactive items in this section are original practice on those topics, using new numbers and wording; they are not reproduced SOA questions.</p><div class=\"tablewrap\"><table><caption>Selected official sources and topic connections</caption><thead><tr><th>Official item</th><th>Related topic</th><th>Source</th></tr></thead><tbody><tr><th>SRM sample question 11</th><td>SSE from observed and fitted values</td><td><a href=\"https://www.soa.org/globalassets/assets/files/edu/2018/exam-srm-sample-questions.pdf#page=10\" target=\"_blank\" rel=\"noopener\">Open official item ↗</a></td></tr><tr><th>SRM sample question 23</th><td>Least squares and prediction</td><td><a href=\"https://www.soa.org/globalassets/assets/files/edu/2018/exam-srm-sample-questions.pdf#page=17\" target=\"_blank\" rel=\"noopener\">Open official item ↗</a></td></tr><tr><th>SRM sample question 24</th><td>Overall F-statistic and R²</td><td><a href=\"https://www.soa.org/globalassets/assets/files/edu/2018/exam-srm-sample-questions.pdf#page=18\" target=\"_blank\" rel=\"noopener\">Open official item ↗</a></td></tr><tr><th>SRM sample question 44</th><td>Nested-model F-test</td><td><a href=\"https://www.soa.org/globalassets/assets/files/edu/2018/exam-srm-sample-questions.pdf#page=32\" target=\"_blank\" rel=\"noopener\">Open official item ↗</a></td></tr><tr><th>SRM sample question 53</th><td>Intercept and slope interpretation</td><td><a href=\"https://www.soa.org/globalassets/assets/files/edu/2018/exam-srm-sample-questions.pdf#page=38\" target=\"_blank\" rel=\"noopener\">Open official item ↗</a></td></tr><tr><th>April 2025 PA task 5(c)</th><td>Interpreting coefficients for a transformed response</td><td><a href=\"https://www.soa.org/globalassets/assets/files/edu/2025/spring/solutions/2025-04-pa-model-soln.pdf#page=16\" target=\"_blank\" rel=\"noopener\">Open official item ↗</a></td></tr></tbody></table></div><p>The SRM document includes its official answer keys and solutions. The PA link points to the April 2025 model-solution document, which includes task prompts, output and examiner commentary.</p><p class=\"context-note\">Four numerical items and one multiple-choice item have automatic checking. The PA-style interpretation item uses written work and self-review. This selection covers topics overlapping with STA 440, not the full SRM or PA syllabus.</p>"
+    },
+    {
+      "title": "Quiz 2: Regression & Matrix Algebra",
+      "short": "Quiz 2 practice",
+      "tag": "Lectures 8–11 · 15 questions",
+      "context": "<p><strong>All 15 questions from your attached STA 440 Quiz 2.</strong> Topics: Lectures 8–10, Lecture 11 part 1, and the matrix algebra introduction.</p><p>Select one best answer for each question. The original quiz assigns 2 points per question, for a total of 30 points. This section provides practice feedback rather than a submitted quiz grade. A calculator may be used.</p><p>Unless stated otherwise, <strong>p counts predictor columns excluding the intercept</strong>, the model includes an intercept, and predictors are fixed. For inference questions, assume independent normal errors with mean zero and common variance σ².</p><p class=\"context-note\">Matrix choices list rows inside brackets, in the same order as the original quiz. Choose A–D, then check your answer and compare your reasoning with the solution.</p>"
     }
   ]
 }</script>
 <script>
 'use strict';
 const DATA = JSON.parse(document.getElementById('review-data').textContent);
-const QUESTIONS = DATA.questions, GROUPS = DATA.groups, KEY = 'atandoh-sta440-attached-test-review-v1';
+const QUESTIONS = DATA.questions, GROUPS = DATA.groups, NAV_ORDER = [8,0,1,2,3,4,5,6,7], KEY = 'atandoh-sta440-attached-test-review-v1';
 const freshState = () => ({version:1,answers:{},checks:{},self:{},revealed:{},name:'',group:0,filter:'all',showAll:false});
 let state = freshState();
 try { const saved = JSON.parse(localStorage.getItem(KEY)); if (saved && saved.version === 1) { state = {...state,...saved}; for(const key of ['answers','checks','self','revealed']) if(!state[key] || typeof state[key] !== 'object' || Array.isArray(state[key])) state[key]={}; if(!Number.isInteger(state.group)||state.group<0||state.group>=GROUPS.length)state.group=0; state.name=typeof state.name==='string'?state.name.slice(0,100):''; state.showAll=!!state.showAll; state.filter=state.filter==='missed'?'missed':'all'; } } catch(e) { /* A fresh review remains usable. */ }
+if(window.location && window.location.hash==='#quiz-2'){state.group=8;state.filter='all';state.showAll=false;}
 const $ = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function parseNumber(value) { const s=String(value??'').trim().replace(/,/g,''); const number=/^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?$/i; if(number.test(s))return Number(s); const parts=s.split('/'); if(parts.length===2&&parts.every(p=>number.test(p.trim()))&&Number(parts[1])!==0)return Number(parts[0])/Number(parts[1]); return NaN; }
-function grade(q,value) { if(q.kind==='mcq') return /^[0-4]$/.test(String(value??'')) ? Number(value)===q.answer : null; if(q.kind==='tf') return (value==='true'||value==='false') ? (value==='true')===q.answer : null; if(q.kind==='number'){const n=parseNumber(value); return Number.isFinite(n)?Math.abs(n-q.answer)<=q.tol+1e-10:null;}return null; }
+function grade(q,value) { if(q.kind==='mcq') return /^\d+$/.test(String(value??'')) && Number(value)>=0 && Number(value)<q.options.length ? Number(value)===q.answer : null; if(q.kind==='tf') return (value==='true'||value==='false') ? (value==='true')===q.answer : null; if(q.kind==='number'){const n=parseNumber(value); return Number.isFinite(n)?Math.abs(n-q.answer)<=q.tol+1e-10:null;}return null; }
 function isReviewed(q) { return q.kind==='written' ? state.self[q.id]===true : typeof state.checks[q.id]==='boolean'; }
 function needsReview(q) { return q.kind==='written' ? state.self[q.id]!==true : state.checks[q.id]!==true; }
 function save() { try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){$('storage-note').hidden=false;} }
 function guideHTML(q) { return q.guide.startsWith('<') ? q.guide : '<p>'+esc(q.guide)+'</p>'; }
-function cardHTML(q){ const input=q.kind==='mcq'?'<div class="mcq-options" role="group" aria-label="Answer choices for '+q.label+'">'+q.options.map((option,i)=>'<button class="option" data-action="choose" data-id="'+q.id+'" data-value="'+i+'" aria-pressed="false"><span class="choice-letter">'+String.fromCharCode(65+i)+'</span><span>'+esc(option)+'</span></button>').join('')+'</div>':q.kind==='tf'?'<div class="answer-options" role="group" aria-label="True or false for '+q.label+'">'+['true','false'].map(v=>'<button class="option" data-action="choose" data-id="'+q.id+'" data-value="'+v+'" aria-pressed="false">'+(v==='true'?'True':'False')+'</button>').join('')+'</div>' : q.kind==='number'?'<label class="answer-label" for="answer-'+q.id+'">'+esc(q.unit)+'</label><input class="number-answer" id="answer-'+q.id+'" data-answer="'+q.id+'" inputmode="decimal" autocomplete="off" placeholder="Enter your answer">' : '<label class="answer-label" for="answer-'+q.id+'">Your response / working</label><textarea class="written-answer" id="answer-'+q.id+'" data-answer="'+q.id+'" placeholder="Explain your reasoning here…"></textarea>'; return '<article class="card" id="card-'+q.id+'"><div class="card-top"><span class="q-label">QUESTION '+esc(q.label)+'</span><span class="q-status" id="status-'+q.id+'">'+(q.kind==='written'?'Written response':'Not checked')+'</span></div><h3 class="prompt">'+(q.topic?'<small class="answer-label">'+esc(q.topic)+'</small>':'')+esc(q.prompt)+'</h3>'+input+'<div class="card-actions">'+(q.kind!=='written'?'<button class="btn primary" data-action="check" data-id="'+q.id+'">Check answer</button>':'')+'<button class="btn" data-action="guide" data-id="'+q.id+'" aria-expanded="false" aria-controls="guide-'+q.id+'">'+(q.kind==='written'?'Compare with solution':'Show solution')+'</button></div><div class="feedback" id="feedback-'+q.id+'" role="status" hidden></div><details class="hint"><summary>A small hint</summary><p>'+esc(q.hint)+'</p></details><div class="guide" id="guide-'+q.id+'" hidden><h4>SOLUTION GUIDE</h4>'+guideHTML(q)+(q.kind==='written'?'<p class="self-note">Written responses are not automatically graded. Compare your reasoning with the guide, then mark your review.</p><button class="btn" data-action="self" data-id="'+q.id+'">Mark as self-reviewed</button>':'')+'</div></article>'; }
-function build(){ $('section-nav').innerHTML=GROUPS.map((g,i)=>'<button data-section="'+i+'"><span class="nav-num">'+(i===5?'★':i===6?'M':i+1)+'</span><span class="nav-copy">'+esc(g.short)+'<small id="nav-count-'+i+'">0 reviewed</small></span></button>').join(''); $('sections').innerHTML=GROUPS.map((g,i)=>'<section id="section-'+i+'" aria-labelledby="heading-'+i+'"><div class="section-head"><div><div class="eyebrow">'+esc(g.tag)+'</div><h2 id="heading-'+i+'">'+esc(g.title)+'</h2><p>'+QUESTIONS.filter(q=>q.group===i).length+' items · '+(i===5?'Bonus section':i===6?'MAS-I-style practice':'Question '+(i+1))+'</p></div><span class="section-index" aria-hidden="true">'+(i===5?'★':i===6?'M':i+1)+'</span></div><div class="context">'+g.context+'</div>'+QUESTIONS.filter(q=>q.group===i).map(cardHTML).join('')+'<div class="empty" id="empty-'+i+'" hidden>All items in this section are checked correctly or self-reviewed. Nice progress!</div><div class="section-footer"><button class="btn" data-prev="'+i+'" '+(i===0?'disabled':'')+'>← Previous section</button><button class="btn primary" data-next="'+i+'" '+(i===GROUPS.length-1?'disabled':'')+'>Next section →</button></div></section>').join(''); $('student-name').value=state.name; for(const q of QUESTIONS){ const input=$('answer-'+q.id);if(input)input.value=typeof state.answers[q.id]==='string'?state.answers[q.id]:''; updateCard(q); } updateStats(); updateView(); }
+function cardHTML(q){ const input=q.kind==='mcq'?'<div class="mcq-options" role="group" aria-label="Answer choices for '+q.label+'">'+q.options.map((option,i)=>'<button class="option" data-action="choose" data-id="'+q.id+'" data-value="'+i+'" aria-pressed="false"><span class="choice-letter">'+String.fromCharCode(65+i)+'</span><span>'+esc(option)+'</span></button>').join('')+'</div>':q.kind==='tf'?'<div class="answer-options" role="group" aria-label="True or false for '+q.label+'">'+['true','false'].map(v=>'<button class="option" data-action="choose" data-id="'+q.id+'" data-value="'+v+'" aria-pressed="false">'+(v==='true'?'True':'False')+'</button>').join('')+'</div>' : q.kind==='number'?'<label class="answer-label" for="answer-'+q.id+'">'+esc(q.unit)+'</label><input class="number-answer" id="answer-'+q.id+'" data-answer="'+q.id+'" inputmode="decimal" autocomplete="off" placeholder="Enter your answer">' : '<label class="answer-label" for="answer-'+q.id+'">Your response / working</label><textarea class="written-answer" id="answer-'+q.id+'" data-answer="'+q.id+'" placeholder="Explain your reasoning here…"></textarea>'; return '<article class="card" id="card-'+q.id+'"><div class="card-top"><span class="q-label">QUESTION '+esc(q.label)+'</span><span class="q-status" id="status-'+q.id+'">'+(q.kind==='written'?'Written response':'Not checked')+'</span></div><h3 class="prompt">'+(q.topic?'<small class="answer-label">'+esc(q.topic)+'</small>':'')+esc(q.prompt)+'</h3>'+(q.source?'<p class="context-note">Related official item: <a href="'+esc(q.source.url)+'" target="_blank" rel="noopener">'+esc(q.source.title)+' ↗</a><br>This card is original topic practice.</p>':'')+input+'<div class="card-actions">'+(q.kind!=='written'?'<button class="btn primary" data-action="check" data-id="'+q.id+'">Check answer</button>':'')+'<button class="btn" data-action="guide" data-id="'+q.id+'" aria-expanded="false" aria-controls="guide-'+q.id+'">'+(q.kind==='written'?'Compare with solution':'Show solution')+'</button></div><div class="feedback" id="feedback-'+q.id+'" role="status" hidden></div><details class="hint"><summary>A small hint</summary><p>'+esc(q.hint)+'</p></details><div class="guide" id="guide-'+q.id+'" hidden><h4>SOLUTION GUIDE</h4>'+guideHTML(q)+(q.kind==='written'?'<p class="self-note">Written responses are not automatically graded. Compare your reasoning with the guide, then mark your review.</p><button class="btn" data-action="self" data-id="'+q.id+'">Mark as self-reviewed</button>':'')+'</div></article>'; }
+function build(){ $('section-nav').innerHTML=NAV_ORDER.map(i=>{const g=GROUPS[i];return '<button data-section="'+i+'"><span class="nav-num">'+(i===5?'★':i===6?'M':i===7?'S':i===8?'Q2':i+1)+'</span><span class="nav-copy">'+esc(g.short)+'<small id="nav-count-'+i+'">0 reviewed</small></span></button>';}).join(''); $('sections').innerHTML=GROUPS.map((g,i)=>'<section id="section-'+i+'" aria-labelledby="heading-'+i+'"><div class="section-head"><div><div class="eyebrow">'+esc(g.tag)+'</div><h2 id="heading-'+i+'">'+esc(g.title)+'</h2><p>'+QUESTIONS.filter(q=>q.group===i).length+' items · '+(i===5?'Bonus section':i===6?'MAS-I-style practice':i===7?'SOA topic practice':i===8?'Quiz 2 practice':'Question '+(i+1))+'</p></div><span class="section-index" aria-hidden="true">'+(i===5?'★':i===6?'M':i===7?'S':i===8?'Q2':i+1)+'</span></div><div class="context">'+g.context+'</div>'+QUESTIONS.filter(q=>q.group===i).map(cardHTML).join('')+'<div class="empty" id="empty-'+i+'" hidden>All items in this section are checked correctly or self-reviewed. Nice progress!</div><div class="section-footer"><button class="btn" data-prev="'+i+'" '+(i===0?'disabled':'')+'>← Previous section</button><button class="btn primary" data-next="'+i+'" '+(i===GROUPS.length-1?'disabled':'')+'>Next section →</button></div></section>').join(''); $('student-name').value=state.name; for(const q of QUESTIONS){ const input=$('answer-'+q.id);if(input)input.value=typeof state.answers[q.id]==='string'?state.answers[q.id]:''; updateCard(q); } updateStats(); updateView(); }
 function updateCard(q){const card=$('card-'+q.id),status=$('status-'+q.id),feedback=$('feedback-'+q.id); const checked=state.checks[q.id];card.querySelectorAll('.option').forEach(b=>{const selected=state.answers[q.id]===b.dataset.value;b.classList.toggle('selected',selected);b.setAttribute('aria-pressed',String(selected));}); status.className='q-status';if(q.kind==='written'){if(state.self[q.id]){status.textContent='Self-reviewed';status.classList.add('good');}else status.textContent=String(state.answers[q.id]||'').trim()?'Response saved':'Written response';feedback.hidden=true;}else if(typeof checked==='boolean'){status.textContent=checked?'Correct':'Try again';status.classList.add(checked?'good':'wrong');feedback.hidden=false;feedback.className='feedback '+(checked?'good':'wrong');feedback.innerHTML=checked?'<b>Correct—well done.</b><p>'+esc((q.kind==='tf'||q.kind==='mcq')?q.guide:'Your calculation matches the expected value. Open the solution to check the steps.')+'</p>':'<b>Give this another look.</b><p>Review the hint or solution, then try again. Your next check updates your result.</p>';}else{status.textContent=state.answers[q.id]!==undefined&&state.answers[q.id]!==''?'Ready to check':'Not checked';feedback.hidden=true;} const show=state.revealed[q.id]===true;$('guide-'+q.id).hidden=!show;const button=card.querySelector('[data-action="guide"]');button.setAttribute('aria-expanded',String(show));button.textContent=show?'Hide solution':q.kind==='written'?'Compare with solution':'Show solution';const self=card.querySelector('[data-action="self"]');if(self){self.classList.toggle('marked',state.self[q.id]===true);self.textContent=state.self[q.id]?'Self-reviewed ✓ · Undo':'Mark as self-reviewed';}}
 function updateStats(){const reviewed=QUESTIONS.filter(isReviewed).length,auto=QUESTIONS.filter(q=>q.kind!=='written'),checked=auto.filter(q=>typeof state.checks[q.id]==='boolean'),correct=checked.filter(q=>state.checks[q.id]).length,self=QUESTIONS.filter(q=>q.kind==='written'&&state.self[q.id]).length;const pct=Math.round(reviewed/QUESTIONS.length*100);$('progress-percent').textContent=pct+'%';$('progress-count').innerHTML=reviewed+' <span>/ '+QUESTIONS.length+' items reviewed</span>';$('progress-fill').style.width=pct+'%';$('progress-bar').setAttribute('aria-valuenow',reviewed);$('accuracy').textContent=checked.length?correct+' correct / '+checked.length+' checked · '+auto.length+' auto-check items total':auto.length+' items can be checked automatically.';$('self-count').textContent=self+' / '+(QUESTIONS.length-auto.length)+' written responses self-reviewed.';GROUPS.forEach((g,i)=>{const qs=QUESTIONS.filter(q=>q.group===i);$('nav-count-'+i).textContent=qs.filter(isReviewed).length+' / '+qs.length+' reviewed';});}
-function updateView(){GROUPS.forEach((g,i)=>{$('section-'+i).hidden=!state.showAll&&i!==state.group;const qs=QUESTIONS.filter(q=>q.group===i);for(const q of qs)$('card-'+q.id).hidden=state.filter==='missed'&&!needsReview(q);$('empty-'+i).hidden=state.filter!=='missed'||qs.some(needsReview);});document.querySelectorAll('[data-section]').forEach(b=>{const active=!state.showAll&&Number(b.dataset.section)===state.group;b.classList.toggle('active',active);if(active)b.setAttribute('aria-current','step');else b.removeAttribute('aria-current');});$('all-filter').classList.toggle('active',state.filter==='all');$('all-filter').setAttribute('aria-pressed',String(state.filter==='all'));$('missed-filter').classList.toggle('active',state.filter==='missed');$('missed-filter').setAttribute('aria-pressed',String(state.filter==='missed'));$('show-all').classList.toggle('active',state.showAll);$('show-all').setAttribute('aria-pressed',String(state.showAll));$('show-all').textContent=state.showAll?'View one section':'View all sections';$('view-label').textContent=state.showAll?'All sections are visible.':(state.group===5?'Bonus section':state.group===6?'MAS-I practice':'Question '+(state.group+1))+' · '+GROUPS[state.group].short;}
-function goSection(i){state.group=Math.max(0,Math.min(GROUPS.length-1,i));state.showAll=false;updateView();save();$('main').scrollIntoView({behavior:'smooth',block:'start'});}
+function updateView(){GROUPS.forEach((g,i)=>{$('section-'+i).hidden=!state.showAll&&i!==state.group;const qs=QUESTIONS.filter(q=>q.group===i);for(const q of qs)$('card-'+q.id).hidden=state.filter==='missed'&&!needsReview(q);$('empty-'+i).hidden=state.filter!=='missed'||qs.some(needsReview);});document.querySelectorAll('[data-section]').forEach(b=>{const active=!state.showAll&&Number(b.dataset.section)===state.group;b.classList.toggle('active',active);if(active)b.setAttribute('aria-current','step');else b.removeAttribute('aria-current');});$('all-filter').classList.toggle('active',state.filter==='all');$('all-filter').setAttribute('aria-pressed',String(state.filter==='all'));$('missed-filter').classList.toggle('active',state.filter==='missed');$('missed-filter').setAttribute('aria-pressed',String(state.filter==='missed'));$('show-all').classList.toggle('active',state.showAll);$('show-all').setAttribute('aria-pressed',String(state.showAll));$('show-all').textContent=state.showAll?'View one section':'View all sections';$('view-label').textContent=state.showAll?'All sections are visible.':(state.group===5?'Bonus section':state.group===6?'MAS-I practice':state.group===7?'SOA practice':state.group===8?'Quiz 2':'Question '+(state.group+1))+' · '+GROUPS[state.group].short;}
+function goSection(i){state.group=Math.max(0,Math.min(GROUPS.length-1,i));state.showAll=false;if(state.group===8)state.filter='all';updateView();save();$('main').scrollIntoView({behavior:'smooth',block:'start'});}
 document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.section!==undefined)return goSection(Number(b.dataset.section));if(b.dataset.prev!==undefined&&!b.disabled)return goSection(Number(b.dataset.prev)-1);if(b.dataset.next!==undefined&&!b.disabled)return goSection(Number(b.dataset.next)+1);const q=QUESTIONS.find(q=>q.id===b.dataset.id);if(!q)return;switch(b.dataset.action){case 'choose':state.answers[q.id]=b.dataset.value;delete state.checks[q.id];break;case 'check':{const result=grade(q,state.answers[q.id]);if(result===null){const f=$('feedback-'+q.id);f.className='feedback';f.hidden=false;f.textContent=q.kind==='tf'?'Choose True or False before checking.':q.kind==='mcq'?'Choose an answer (A–E) before checking.':'Enter a valid numerical answer. You may also enter a fraction such as 55/196.';return;}state.checks[q.id]=result;break;}case 'guide':state.revealed[q.id]=!state.revealed[q.id];break;case 'self':state.self[q.id]=!state.self[q.id];break;default:return;}updateCard(q);updateStats();updateView();save();});
 document.addEventListener('input',e=>{const id=e.target.dataset.answer;if(id){state.answers[id]=e.target.value;delete state.checks[id];delete state.self[id];const q=QUESTIONS.find(q=>q.id===id);updateCard(q);updateStats();save();}else if(e.target.id==='student-name'){state.name=e.target.value;save();}});
 $('all-filter').onclick=()=>{state.filter='all';updateView();save();};$('missed-filter').onclick=()=>{state.filter='missed';updateView();save();};$('show-all').onclick=()=>{state.showAll=!state.showAll;updateView();save();};
 $('reset-button').onclick=()=>{$('reset-dialog').showModal();};$('cancel-reset').onclick=()=>{$('reset-dialog').close();};$('confirm-reset').onclick=()=>{state=freshState();save();$('reset-dialog').close();build();toast('Your review is ready for a fresh start.');};
 function toast(message){$('toast').textContent=message;$('toast').hidden=false;setTimeout(()=>$('toast').hidden=true,4000);}
-function preparePrint(){const auto=QUESTIONS.filter(q=>q.kind!=='written'),checked=auto.filter(q=>typeof state.checks[q.id]==='boolean'),correct=checked.filter(q=>state.checks[q.id]).length;$('print-view').innerHTML='<h1>STA 440 · Test Review</h1><p>Applied Regression · Dr. Atandoh · Mercer University<br><b>Name:</b> '+esc(state.name||'Not entered')+'<br><b>Saved:</b> '+esc(new Date().toLocaleString())+'</p><p>'+correct+' correct of '+checked.length+' automatically checked responses; '+QUESTIONS.filter(q=>q.kind==='written'&&state.self[q.id]).length+' written responses self-reviewed. This is practice feedback, not an exam grade.</p>'+GROUPS.map((g,i)=>'<section><h2>'+(i===5?'Bonus':i===6?'MAS-I practice':'Question '+(i+1))+': '+esc(g.title)+'</h2><div class="context">'+g.context+'</div>'+QUESTIONS.filter(q=>q.group===i).map(q=>{const value=state.answers[q.id];const response=value===undefined||value===''?'No response entered':q.kind==='tf'?(value==='true'?'True':'False'):q.kind==='mcq'?String.fromCharCode(65+Number(value))+'. '+q.options[Number(value)]:value;const status=q.kind==='written'?(state.self[q.id]?'Self-reviewed':'Not self-reviewed'):typeof state.checks[q.id]==='boolean'?(state.checks[q.id]?'Correct':'Needs another look'):'Not checked';return '<div class="print-question"><h3>'+esc(q.label)+'. '+esc(q.prompt)+'</h3>'+(q.kind==='mcq'?'<ol type="A">'+q.options.map(o=>'<li>'+esc(o)+'</li>').join('')+'</ol>':'')+'<p class="print-status">'+status+'</p><div class="print-answer"><b>Your response:</b> '+esc(response)+'</div>'+(state.revealed[q.id]?'<div class="print-guide"><b>Viewed solution guide</b>'+guideHTML(q)+'</div>':'')+'</div>';}).join('')+'</section>').join('');$('print-view').querySelectorAll('details').forEach(d=>d.open=true);}
-$('print-button').onclick=()=>{preparePrint();window.print();};window.addEventListener('beforeprint',preparePrint);
+function preparePrint(){const auto=QUESTIONS.filter(q=>q.kind!=='written'),checked=auto.filter(q=>typeof state.checks[q.id]==='boolean'),correct=checked.filter(q=>state.checks[q.id]).length;$('print-view').innerHTML='<h1>STA 440 · Test Review</h1><p>Applied Regression Analysis · Dr. Atandoh<br><b>Name:</b> '+esc(state.name||'Not entered')+'<br><b>Saved:</b> '+esc(new Date().toLocaleString())+'</p><p>'+correct+' correct of '+checked.length+' automatically checked responses; '+QUESTIONS.filter(q=>q.kind==='written'&&state.self[q.id]).length+' written responses self-reviewed. This is practice feedback, not an exam grade.</p>'+GROUPS.map((g,i)=>'<section><h2>'+(i===5?'Bonus':i===6?'MAS-I practice':i===7?'SOA practice':i===8?'Quiz 2':'Question '+(i+1))+': '+esc(g.title)+'</h2><div class="context">'+g.context+'</div>'+QUESTIONS.filter(q=>q.group===i).map(q=>{const value=state.answers[q.id];const response=value===undefined||value===''?'No response entered':q.kind==='tf'?(value==='true'?'True':'False'):q.kind==='mcq'?String.fromCharCode(65+Number(value))+'. '+q.options[Number(value)]:value;const status=q.kind==='written'?(state.self[q.id]?'Self-reviewed':'Not self-reviewed'):typeof state.checks[q.id]==='boolean'?(state.checks[q.id]?'Correct':'Needs another look'):'Not checked';return '<div class="print-question"><h3>'+esc(q.label)+'. '+esc(q.prompt)+'</h3>'+(q.source?'<p class="print-status">Original topic practice · Official source: <a href="'+esc(q.source.url)+'">'+esc(q.source.title)+'</a></p>':'')+(q.kind==='mcq'?'<ol type="A">'+q.options.map(o=>'<li>'+esc(o)+'</li>').join('')+'</ol>':'')+'<p class="print-status">'+status+'</p><div class="print-answer"><b>Your response:</b> '+esc(response)+'</div>'+(state.revealed[q.id]?'<div class="print-guide"><b>Viewed solution guide</b>'+guideHTML(q)+'</div>':'')+'</div>';}).join('')+'</section>').join('');$('print-view').querySelectorAll('details').forEach(d=>d.open=true);}
+$('print-button').onclick=()=>{preparePrint();window.print();};window.addEventListener('beforeprint',preparePrint);window.addEventListener('hashchange',()=>{if(window.location.hash==='#quiz-2')goSection(8);});
 build();
 </script>
 </body>
